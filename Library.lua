@@ -1,6 +1,12 @@
 local TweenService = game:GetService('TweenService')
 local CoreGui = game:GetService('CoreGui')
 
+for _, object in CoreGui:GetChildren() do
+    if object.Name == 'Antora' then
+        object:Destroy()
+    end
+end
+
 local Library = {}
 Library.flags = {}
 
