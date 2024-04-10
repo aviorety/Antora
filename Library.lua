@@ -17,6 +17,8 @@ function Library:new()
 
     local container = game:GetObjects('rbxassetid://17084588177')[1]
     container.Parent = screen_gui
+    container.Draggable = true
+    container.Active = true
 
     local tabs = game:GetObjects('rbxassetid://17084048806')[1]
     tabs.Parent = container.LeftContainer
