@@ -1,4 +1,4 @@
-local Main = {}
+local Control = {}
 
 
 function Control:get_weapon()
