@@ -258,11 +258,11 @@ function Library:new()
             })
         
             self.callback(self.state)
-            Library.flags[self.text] = self.state
+            Library.flags[self.flag] = self.state
 
             toggle.MouseButton1Click:Connect(function()
                 self.state = not self.state
-                Library.flags[self.text] = self.state
+                Library.flags[self.flag] = self.state
 
                 Library.update_toggle({
                     toggle = toggle,
