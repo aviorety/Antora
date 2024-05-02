@@ -10,7 +10,7 @@ end
 
 local assets = game:GetObjects('rbxassetid://17093091546')[1]
 
-local GUI_OPEN = false
+local GUI_OPEN = true
 
 local DRAG = false
 local DRAG_POSITION = nil
